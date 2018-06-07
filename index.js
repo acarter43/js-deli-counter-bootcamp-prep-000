@@ -3,8 +3,8 @@ var counter = 0
 
 function takeANumber(katzDeliLine){
   counter++
-  katzDeliLine.push()
-  return (`You are number ${counter.length}.`)
+  katzDeliLine.push(counter)
+  return (`You are number ${counter}.`)
 }
 
 function nowServing(customer){
