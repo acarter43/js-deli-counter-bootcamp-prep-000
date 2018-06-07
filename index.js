@@ -27,7 +27,14 @@ function currentLine(line) {
     
   }
 }
-   
- 
+
+function array(item){
+  for (let i = 0; i < item.length; i++){
+    console.log(item[i])
+  }
+}
   
+
+
+var item = ['Michael', "sam"]
 
